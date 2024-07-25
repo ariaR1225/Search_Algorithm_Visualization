@@ -20,7 +20,7 @@ namespace NAVIGATION
 		start,
 		end,
 		obs,
-		way_pt,
+		way_pt
 	};
 
 	class Node
