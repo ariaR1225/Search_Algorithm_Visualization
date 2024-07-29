@@ -40,6 +40,7 @@ namespace NAVIGATION
 
 		int node_type = NodeType::normal;
 		Node* parent_node = nullptr;
+
 	};
 
 	class GridMapBase // parent
