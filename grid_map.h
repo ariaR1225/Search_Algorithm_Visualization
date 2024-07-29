@@ -30,6 +30,8 @@ namespace NAVIGATION
 		Node(const int& r, const int& c, const int& type = NodeType::normal); // row, col, type
 		void drawNode() const;
 
+		bool operator<(const Node& other_node) const { return this->f > other_node.f; } //reload <
+
 	public:
 		int row = 0; //row in map
 		int col = 0; // col in map
