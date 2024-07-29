@@ -109,7 +109,7 @@ namespace NAVIGATION
 					open_set.insert(next_node);
 
 					// draw open
-					setfillcolor(LIGHTBLUE);
+					setfillcolor(LIGHTCYAN);
 					drawNodeStep(map->start_node, map->end_node, current_node, SEARCH_DELAY);
 				}
 			}
