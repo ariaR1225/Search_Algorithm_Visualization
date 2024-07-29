@@ -7,7 +7,7 @@ namespace NAVIGATION
 	{
 	public:
 		Navigate();
-		bool process(const int& _dist_type, const int* algo_type);
+		bool process(const int& _dist_type, const int& algo_type);
 
 	public:
 		vector<Node*> result_nodes;

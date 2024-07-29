@@ -19,7 +19,7 @@ namespace NAVIGATION
 	{
 		Dijkstra,
 		BFS,
-		AStar
+		Astar
 	};
 
 	class StrategyBase
@@ -45,7 +45,7 @@ namespace NAVIGATION
 		unordered_set<Node*> close_set; // searched nodes
 		
 		int dist_type = DistType::Manhattan;
-		int algo_type = AlgoType::AStar;
+		int algo_type = AlgoType::Astar;
 		int path_len = 0;
 		int step_len = 0;
 
